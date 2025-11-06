@@ -1,3 +1,8 @@
+            - name: Android APK Build & Release (Tag or Manual Trigger)
+  # You may pin to the exact commit or the version.
+  # uses: adelpro/GitHub-action-release-apk-expo@5f8a73c2e2d54dfd623bc5e7e51bf2cc2fc6ff4a
+  uses: adelpro/GitHub-action-release-apk-expo@v1.0.2         
+
 name: Android CI
 on:
   push:
